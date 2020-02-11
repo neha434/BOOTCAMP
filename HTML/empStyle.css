@@ -1,0 +1,25 @@
+#emp{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    height: 100%;
+    margin-left: 130px ;
+    margin-top: 130px;
+}
+.
+#emp td, #emp th {
+    border: 1px solid #525416;
+    padding: 8px;
+}
+
+#emp tr:nth-child(even){background-color:  #fef9e7 ;}
+
+#emp tr:hover {background-color: #ddd;}
+
+#emp th {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    background-color: #26ecaa;
+    color: black;
+}
