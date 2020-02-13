@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Area</title>
+
+<script>
+	function pa()
+	{
+       // alert("gug");
+		 var w = document.getElementById("a").value;
+		 var q="";
+         var l= w.length;
+         for(var j=l; j>=0; j--){
+         	q=q+ w.charAt(j);
+         }
+         if(w==q)
+         {
+         	alert("Is Palindrome");
+         }
+         else
+         {
+         	alert("Not a Palindrome");
+         }
+     }
+        </script>
+    </head>
+<body>
+    <center>
+    <h2>Palindrome<h2>
+         <br>
+        <br>
+
+    Number:*<br>
+    <input type="text" name=" " id="a"><br><br>
+    <button onclick="pa()">Check</button> 
+</center>
+</body>
+</html>    
